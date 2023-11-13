@@ -72,7 +72,7 @@ namespace MultipleRadiances
         {
                 if (self.FsmName == "Control" && self.gameObject.name == "Absolute Radiance")
                 {
-                    Log("beginmulti");
+                    //Log("beginmulti");
                     if (CountSet(set) != 0)
                     {
                         rads.Clear();
@@ -85,7 +85,7 @@ namespace MultipleRadiances
                             count--;
                         }
                         self.gameObject.AddComponent<RadiancesControler>();
-                        Log("start control");
+                        //Log("start control");
                     }
                 }
 
